@@ -5,7 +5,7 @@ import base64
 
 def decrypt():
     password = code.get()
-    if password == 'Masi123':
+    if password == '1234':
         screen2 = Toplevel(screen)
         screen2.title("Decryption")
         screen2.geometry("500x250")
@@ -23,13 +23,13 @@ def decrypt():
         text2.insert(END, decrypt)
     elif password == "":
         messagebox.showerror("encryption", "Input Password")
-    elif password != "Masi123":
+    elif password != "1234":
         messagebox.showerror("encryption", "Invalid Password")
 
 
 def encrypt():
     password = code.get()
-    if password == 'Masi123':
+    if password == '1234':
         screen1 = Toplevel(screen)
         screen1.title("Encryption")
         screen1.geometry("500x250")
@@ -47,7 +47,7 @@ def encrypt():
         text2.insert(END, encrypt)
     elif password == "":
         messagebox.showerror("encryption", "Input Password")
-    elif password != "Masi123":
+    elif password != "1234":
         messagebox.showerror("encryption", "Invalid Password")
 
 
