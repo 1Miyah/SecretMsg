@@ -3,6 +3,7 @@
 This application GUI is created using python tkinter module.
 It encrypts and decrypts messages(for educational purpose not to be used for malicious intent)
 
+<Default special key: '1234'>
 
 How to use:
 
